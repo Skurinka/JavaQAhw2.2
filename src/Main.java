@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-            int account = 200;
+        int account = 200;
 
         int refill = 700;
 
@@ -13,7 +13,7 @@ public class Main {
 
 
         System.out.println("Вы пополнили счет на: " + refill + "рублей,");
-        if (refill>= 1000) {
+        if (refill >= 1000) {
 
             System.out.println("бонус равен " + bonus + " рублям, итоговая сумма на вашем счету " + (account + refill + bonus) + " рублей.");
         } else {
@@ -21,4 +21,5 @@ public class Main {
             System.out.println("бонус не начисляется, итоговая сумма на вашем счету " + (account + refill + bonus) + " рублей");
         }
 
-    }}
+    }
+}
